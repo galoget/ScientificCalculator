@@ -1,12 +1,4 @@
 float division(int dividendo, int divisor)
 {
-    if (divisor) 
- {
-    return dividendo / divisor;
- }
-     else
- {
-    printf ("No se puede dividir por cero\n");
-     return 0;
- }
+    return (double) dividendo / divisor; //La validación de "No se puede dividir por cero la implementaremos en el main"
 }
